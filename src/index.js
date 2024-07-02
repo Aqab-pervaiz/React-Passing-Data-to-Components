@@ -1,16 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Counter from './components/counter';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Counters from './components/counters';
+import App from './App';
+import 'font-awesome/css/font-awesome.min.css';
+import Movies from './components/movies';
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <Counter/>
-    <Counter/> 
+    <App />
+   
+    {/* <Counters></Counters> */}
   </React.StrictMode>
 );
 
